@@ -1,11 +1,4 @@
-### Clip Present Week9 ###
-https://drive.google.com/file/d/1MRq4BrE1Kf0yQGTY8-agBEfjzbpI3UgS/view?usp=share_link
-
-
-### Clip Present Week10 ###
-https://drive.google.com/file/d/1ZPbHAZsX-aMxEVlrFvA7oZPAvTIAMHGa/view?usp=share_link
-
-
+## Dev-Tool Week 11
 # Install jenkins, docker, docker-compose, and git 
 
 ### 1. Open the install_git_docker_docker_compose.sh file :
