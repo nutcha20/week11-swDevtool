@@ -1,4 +1,6 @@
 ## Dev-Tool Week 11
+คลิป vdo week 11 https://drive.google.com/file/d/1o_DvWilqHqWihRBRVxPNyG_1UwWB-M_j/view?usp=sharing
+
 # Install jenkins, docker, docker-compose, and git 
 
 ### 1. Open the install_git_docker_docker_compose.sh file :
