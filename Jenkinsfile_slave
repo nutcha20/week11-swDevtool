@@ -23,7 +23,7 @@ pipeline {
 
             stage('Pull Stage') {
                 steps {
-                    dir('SWDEV') {
+                    dir('week11-swDevtool') {
                         echo "Current path is ${pwd()}"
                         sh "docker pull ${DOCKER_IMAGE_NAME_BACKEND}"
                         sh "docker pull ${DOCKER_IMAGE_NAME_FRONTEND}"
@@ -33,7 +33,7 @@ pipeline {
 
             stage('Run Stage') {
                 steps {
-                    dir('SWDEV') {
+                    dir('week11-swDevtool') {
                         echo "Current path is ${pwd()}"
                         sh "docker run -d -p 8081:80 --name ${DOCKER_CONTAINER_NAME_BACKEND}  ${DOCKER_IMAGE_NAME_BACKEND}"
                         sh "docker run -d -p 8082:80 --name ${DOCKER_CONTAINER_NAME_FRONTEND} ${DOCKER_IMAGE_NAME_FRONTEND}"
